@@ -1,0 +1,289 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+nav{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	left: 0;
+  	top: 0;
+
+	background-color: transparent;
+  	-webkit-transition: background-color 500ms;
+    -moz-transition: background-color 500ms;
+    -o-transition: background-color 500ms;
+    -ms-transition: background-color 500ms;
+    transition: background-color 500ms;
+}
+
+.sticky{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+  	left: 0;
+  	top: 0;
+  	z-index: 100;
+  	border-top: 0;
+
+  	/**Transición**/
+  	background-color: gray;
+  	border: 2px solid;
+  	-webkit-transition: background-color 1000ms, border-radius 1000ms;
+    -moz-transition: background-color 1000ms, border-radius 1000ms;
+    -o-transition: background-color 1000ms, border-radius 1000ms;
+    -ms-transition: background-color 1000ms, border-radius 1000ms;
+    transition: background-color 1000ms, border-radius 1000ms;
+}
+
+#wrapper{
+	margin: 0 auto;
+	width: 100%;
+	height: 800px;
+}
+
+#Intro{
+	width: 100%;
+	height: 625px;
+}
+
+#logo{
+
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+#logo img{
+	
+	width: 100%;
+	height: 100%;
+}
+
+#videoIntro{
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: fixed;   
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);  
+  z-index: -100;
+  background-size: cover;
+  opacity: ;
+}
+
+
+#logo h1{
+	text-align: center;
+	font-size: 100px;
+	color: white;
+	padding-top: 150px;
+}
+	
+ul{
+	float: right;
+}
+
+li{
+	float: left;
+	list-style: none;
+	margin-top: 30px;
+}
+
+li a{
+	text-decoration: none;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
+}
+
+li a:hover{
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 10px;
+
+	-webkit-transition: background-color 1000ms, opacity 1000ms;
+    -moz-transition: background-color 1000ms, opacity 1000ms;
+    -o-transition: background-color 1000ms, opacity 1000ms;
+    -ms-transition: background-color 1000ms, opacity 1000ms;
+    transition: background-color 1000ms, opacity 1000ms;
+
+}
+
+#who{
+	background-color: #001227;
+	width: 100%;
+	height: 800px;
+}
+
+#who .servicios {
+	float: left;
+}
+
+.servicios{
+	margin: 0 auto;
+	height: 260px;
+}
+
+.servicios img{
+	width: 180px;
+	height: 180px;
+	
+}
+
+.servicios h1{
+	color: white;
+	padding: 20px;
+}
+
+.servicios {
+	float: left;
+	margin-top: 80px;
+	padding-left: 185px;
+	text-align: center;
+}
+
+#descWho{
+	width: 900px;
+	height: 300px;
+	margin: 0 auto;
+	padding-top: 110px;
+	font-size: 20px;
+}
+
+#descWho *{
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+
+#team{
+	background-color: #DCDCE0;
+	width: 100%;
+	min-height: 800px;	
+}
+
+.profilePic{
+	width: 250px;
+	height: 250px;
+	border: 2px;
+	border-radius: 150px;
+	background-position: center;
+	background-size: 100%;
+}
+
+.profile{
+	padding-left: 30px;
+	padding-right: 25px;
+	padding-top: 40px;
+	float: left;
+}
+
+.profileDesc{
+	text-align: center;
+}
+
+#formulario{
+	width: 100%;
+	height: 800px;
+	background-color: #001227;
+	padding-top: 95px;
+}
+
+#formulario form{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+
+}
+
+.text{
+	display: block;
+	padding: 5px;
+	background-color: transparent;
+	border-color: transparent;
+	border-bottom-color: #C43B3C;
+	margin-bottom: 30px;
+	color: white;
+	width: 60%;
+
+	font-size: 15px;
+
+  	-webkit-transition: padding-right 400ms linear;
+    -moz-transition: padding-right 400ms linear;
+    -o-transition: padding-right 400ms linear;
+    -ms-transition: padding-right 400ms linear;
+    transition: padding-right 400ms linear;
+}
+
+.text:focus{
+	outline:0px;
+
+	padding-right: 180px;
+  	-webkit-transition: padding-right 400ms linear;
+    -moz-transition: padding-right 400ms linear;
+    -o-transition: padding-right 400ms linear;
+    -ms-transition: padding-right 400ms linear;
+    transition: padding-right 400ms linear;
+}
+
+#boton{
+	background-color: transparent;
+	border-style: solid;
+	border-color: #C43B3C;
+	padding: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: white;
+	margin-left: 190px;
+	margin-bottom: 20px;
+	font-size: 20px;
+
+
+	-webkit-transition: background-color 1000ms, border-radius 1000ms;
+    -moz-transition: background-color 1000ms, border-radius 1000ms;
+    -o-transition: background-color 1000ms, border-radius 1000ms;
+    -ms-transition: background-color 1000ms, border-radius 1000ms;
+    transition: background-color 1000ms, border-radius 1000ms;
+}
+
+#boton:hover{
+	background-color: #C43B3C;
+	border-radius: 20px;
+	-webkit-transition: background-color 1000ms, border-radius 1000ms;
+    -moz-transition: background-color 1000ms, border-radius 1000ms;
+    -o-transition: background-color 1000ms, border-radius 1000ms;
+    -ms-transition: background-color 1000ms, border-radius 1000ms;
+    transition: background-color 1000ms, border-radius 1000ms;
+}
+
+#cuadro{
+		 background-color: transparent;
+		 border-style: solid;
+		 border-color: #C43B3C;
+		 border-radius: 8px;
+		 width: 600px;
+		 margin: 0 auto;
+}
+
+#contenedor{
+	width: 40%;
+	height: 600px;
+	margin: 0 auto;
+}
+
+label{
+	margin-top: 30px;
+	color: white;
+	font-size: 20px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+}

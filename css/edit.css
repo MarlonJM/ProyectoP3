@@ -1,0 +1,44 @@
+/*Version Editable*/
+
+#side{
+	position: absolute;
+	height: 100%;
+	width: 100px;
+	background-color: rgb(13,13,13);
+	top: 0;
+}
+
+#side:hover{
+	width: 400px;
+	-webkit-transition: width 0.1s ease-in-out;
+    -moz-transition: width 0.1s ease-in-out;
+    -o-transition: width 0.1s ease-in-out;
+    -ms-transition: width 0.1s ease-in-out;
+    transition: width 0.1s ease-in-out;
+}
+
+#side *{
+	display: none;
+}
+
+#side:hover *{
+	display: block;
+}
+
+#introEdit{
+	height: 700px;
+	position: relative;
+}
+
+#perfilEdit{
+	color: white;
+	text-align: center;
+}
+
+#datosPortafolio{
+	width: 550px;
+	height: 550px;
+	/*background-color: red;*/
+	margin: 0 auto;
+	padding-top: 20px;
+}

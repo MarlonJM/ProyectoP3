@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/styleAdmin.css">
+	<script src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
+	<!-- <script src="js/menu.js"></script> -->
+	<title>Sitio Administrativo</title>
+</head>
+<body>
+
+	<div id="wrapper">
+			
+			<div id="Intro">
+
+				<video id="videoIntro" autoplay="autoplay" loop>
+				    <source src="video/back5.mp4" type="video/mp4"></source>
+				</video><!-- 
+				<div style="margin-bottom:30px;height:50px;">
+					
+				</div> -->
+
+				<nav id="menu">
+					<ul>
+						<li><a href="#who">¿Quienes Somos?</a></li>
+						<li><a href="#team">Nuestro Equipo</a></li>
+						<li><a href="#formulario">Forma Parte</a></li>
+						<li><a href="#">Login</a></li>
+					</ul>	
+				</nav>
+
+				<div id="logo" style="margin-top:150px;">
+					<h1>PKMS Design</h1>
+				</div>
+	
+			</div>
+			
+			<div id="who">
+
+			<div id="descWho">
+
+			<h1>Somos</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+				<div class="servicios">
+					<img src="img/htmlLogo.png">
+					<h1>HTML</h1>
+				</div>
+
+				<div class="servicios">
+					<img src="img/lapiz.png">
+					<h1>Diseño</h1>
+				</div>
+
+				<div class="servicios">
+					<img src="img/community2.png">
+					<h1>Comunidad</h1>
+				</div>
+				
+			</div>
+
+			<div id="team">
+				<div class="profile" style="padding-left:90px;">
+					<div class="profilePic">
+
+					</div>
+
+					<div class="profileDesc">
+						<p>Lorem ipsum dolor sit amet.</p>
+						<a href="index.php">Ver Portafolio</a>
+					</div>
+				</div>
+
+				<div class="profile">
+					<div class="profilePic">
+						
+					</div>
+
+					<div class="profileDesc">
+						<p>Lorem ipsum dolor sit amet.</p>
+						<a href="#">Ver Portafolio</a>
+					</div>
+				</div>
+
+				<div class="profile">
+					<div class="profilePic">
+						
+					</div>
+
+					<div class="profileDesc">
+						<p>Lorem ipsum dolor sit amet.</p>
+						<a href="#">Ver Portafolio</a>
+					</div>
+				</div>
+
+				<div class="profile">
+					<div class="profilePic">
+						
+					</div>
+
+					<div class="profileDesc">
+						<p>Lorem ipsum dolor sit amet.</p>
+						<a href="#">Ver Portafolio</a>
+					</div>
+				</div>				
+			</div>
+
+			<div id="formulario">
+				<div id="contenedor">
+					<div id="cuadro">
+						<h1 style="text-align:center;color: #C43B3C; margin-bottom:10px;font-size:70px;">Formulario</h1>
+						<form>
+							<label style="margin-top:60px;">Nombre:</label><input type="" name="" class="text">
+							<label>Primer Apellido:</label><input type="" name="" class="text">
+							<label>Segundo Apellido:</label><input type="" name="" class="text">
+							<label>Correo Electrónico:</label><input type="" name="" class="text">
+							<label>Fecha de Nacimiento:</label><input type="" name="" class="text">
+							<input id="boton"  type="button" name="" value="Enviar">
+						</form>
+					</div>
+
+				</div>
+				
+			</div>
+
+			<footer>
+				<h1>PKMS Design</h1>
+			</footer>
+
+	</div>
+
+	<script>
+    /* Smooth scrolling para anclas*/  
+		$(function() {
+		  $('a[href*="#"]:not([href="#"])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html, body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		}); 
+	</script>
+
+</body>
+</html>

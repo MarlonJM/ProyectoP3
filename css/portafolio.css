@@ -1,0 +1,319 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#wrapper{
+	width: 100%;
+	position: relative;
+}
+
+#intro{
+	height: 700px;
+	position: relative;
+}
+
+#videoIntro{
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: fixed;   
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);  
+  z-index: -100;
+  background-size: cover;
+}
+
+
+#menu{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 20px;
+	padding-right: 20px;
+	width: 70px;
+	height: 70px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 12px;
+    background-color: transparent;
+    min-width: 101px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #001227;
+	color: white;
+	-webkit-transition: background-color 500ms;
+    -moz-transition: background-color 500ms;
+    -o-transition: background-color 500ms;
+    -ms-transition: background-color 500ms;
+    transition: background-color 500ms
+    }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .icon-menu {
+   	color: orange;
+
+  	-webkit-transition: color 500ms;
+    -moz-transition: color 500ms;
+    -o-transition: color 500ms;
+    -ms-transition: color 500ms;
+    transition: color 500ms;
+}
+
+
+.icon-menu{
+	font-size: 60px;
+	color: white;
+	line-height: 20%;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#perfil{
+	padding-top: 150px;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+#profileImg{
+	width: 300px;
+	height: 300px;
+	border-radius: 200px;
+	background-position: center;
+	background-size: 100%;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: white;
+}
+
+#acerca{
+	height: 700px;
+	background-color: #DCDCE0;
+	position: relative;
+}
+
+#acerca h1{
+	color:#123A73;
+	/*rgb(71, 95, 119);*/
+	border-style: solid;
+	border-color: transparent;
+	border-bottom-color: #4ECDE7;
+	text-align: center;
+	padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#descripcion{
+	width: 550px;
+	height: 640px;
+	float: left;
+	margin: 20px;
+	padding-right: 65px;
+	padding-left: 40px;
+	border-style: solid;
+	border-color: transparent;
+	border-right-color: #4ECDE7;
+}
+
+#descripcion p{
+	padding-top:20px;
+	text-align:center;
+	font-size: 20px;
+}
+
+#contacto{
+	width: 550px;
+	height: 640px;
+	float: right;
+	margin: 20px;
+	padding-right: 30px;
+}
+
+#formacion{
+	padding-top: 30px;
+}
+
+#datos h1{
+	border-style: solid;
+	border-color: transparent;
+	border-bottom-color: #4ECDE7;
+	text-align: center;
+}
+
+#proyectos{
+	height: 800px;
+	background-color: #0C1829;
+}
+
+#proyectos h1{
+	border-bottom-style: solid;
+	text-align: center;
+	color: #FF8A00;
+	padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.proyectoImg{
+	background-position: center;
+	background-size: 100%;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+
+	  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.proyectoImg:hover{
+	width: 300px;
+  	height: 300px;
+}
+
+.proyecto{
+	width: 400px;
+	height: 400px;
+	padding-top: 80px;
+	float: left;
+	text-align: center;
+	padding-left: 20px;
+
+}
+
+.proyecto h2{
+	padding-top: 20px;
+	font-size: 35px;
+	color: #FF8A00;
+}
+
+.proyecto p{
+	color: white;
+	font-size: 20px;
+}
+
+#galeria{
+	height: 800px;
+	background-color: #FCF8EF;
+}
+
+.thumb{
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 229px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+}
+
+#galeria h1{
+	border-bottom-style: solid;
+	text-align: center;
+	color: rgb(71, 95, 119);
+	padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#pasatiempos{
+	height: 300px;
+	background-color: #0C1829;
+}
+
+.pasatiempoImg{
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+}
+
+.pasatiempo{
+	padding: 20px;
+	float: left;
+	margin: 0 auto;
+}
+
+#pasatiempos h1{
+	border-bottom-style: solid;
+	text-align: center;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FCF8EF;
+}
+
+#pasatiempos h2{
+	text-align: center;
+	padding-top: 10px;
+	color: #FCF8EF;
+}
+
+#contenedor{
+	width: 700px;
+	margin: 0 auto;
+}
+
+footer{
+	background-color: rgb(216,216,216);
+	width: 100%;
+}
+
+.acercaIcon{
+	width: 100%;
+}
+.acercaIcon *{
+	float: left;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.acercaIcon i{
+	padding-top: 18px;
+}
